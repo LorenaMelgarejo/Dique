@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Dique</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <button class="navbar-toggler" id="navbarToggler">
+                ☰
+            </button>
+            <div class="navbar-links" id="navbarLinks">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="acerca-de.html">Acerca de</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="registro.html">Regístrese</a></li>
+                    <li><a href="sucursales.html">Sucursales</a></li>
+                    <li><a href="clientes.html">Nuestros Clientes</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Contacto y Mapa -->
+    <section id="contacto-mapa" class="container mt-5">
+        <div class="contacto-mapa-grid">
+            <!-- Contacto -->
+            <div id="contacto" class="contacto">
+                <h2>Contacto</h2>
+                <p>Horario: Lunes a Viernes de 10:00 a 19:00 hs</p>
+                <p>Puede contactarnos a través de nuestro correo:</p>
+                <p>info@pescaderiaeldique.com</p>
+                <a href="https://wa.me/1234567890?text=Hola%20quiero%20más%20información" 
+                   target="_blank" 
+                   class="whatsapp-link">
+                    <i class="fab fa-whatsapp"></i> Contactarnos por WhatsApp
+                </a>
+            </div>
+
+            <!-- Mapa de Google Maps -->
+            <div class="mapa">
+                <h2>Nuestra Ubicación</h2>
+                <div class="embed-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3284.3835240208446!2d-58.402355199999995!3d-34.59446219999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1720041291680!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-media">
+            <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+        </div>
+        <div class="footer-text">
+            © 2024 Pescadería El Dique. Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
